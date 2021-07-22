@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: treebank
+Version: 0.0.0
+Summary: Dataset of Treebanks
+Home-page: http://github.com/zhiqingxiao/treebank/
+Author: Zhiqing Xiao
+Author-email: xzq.xiaozhiqing@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Intended Audience :: Science/Research
+Description-Content-Type: text/markdown
+
+treebank: library for TreeBank dataset
+=======================
+
+## Install
+
+```
+pip install --upgrade treebank
+```
+
+## Usage
+
+```
+import treebank
+print(treebank.penn['train'])
+print(treebank.penn['valid'])
+print(treebank.penn['test'])
+```
+
+
